@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="D:\VTVPLAY_2_1\draggablepanel\src\main\res"/><source path="D:\VTVPLAY_2_1\draggablepanel\build\generated\res\rs\release"/><source path="D:\VTVPLAY_2_1\draggablepanel\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="D:\VTVPLAY_2_1\draggablepanel\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\VTVPLAY_2_1\draggablepanel\src\main\res"><file name="draggable_panel" path="D:\VTVPLAY_2_1\draggablepanel\src\main\res\layout\draggable_panel.xml" qualifiers="" type="layout"/><file path="D:\VTVPLAY_2_1\draggablepanel\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="draggable_panel">
+    <attr format="dimension" name="top_fragment_height"/>
+    <attr format="float" name="x_scale_factor"/>
+    <attr format="float" name="y_scale_factor"/>
+    <attr format="dimension" name="top_fragment_margin_right"/>
+    <attr format="dimension" name="top_fragment_margin_bottom"/>
+    <attr format="boolean" name="enable_horizontal_alpha_effect"/>
+    <attr format="boolean" name="enable_click_to_maximize_panel"/>
+    <attr format="boolean" name="enable_click_to_minimize_panel"/>
+    <attr format="boolean" name="enable_touch_listener_panel"/>
+  </declare-styleable><declare-styleable name="draggable_view">
+    <attr format="reference" name="top_view_id"/>
+    <attr format="reference" name="bottom_view_id"/>
+    <attr format="dimension" name="top_view_height"/>
+    <attr format="float" name="top_view_x_scale_factor"/>
+    <attr format="float" name="top_view_y_scale_factor"/>
+    <attr format="dimension" name="top_view_margin_right"/>
+    <attr format="dimension" name="top_view_margin_bottom"/>
+    <attr format="boolean" name="enable_minimized_horizontal_alpha_effect"/>
+    <attr format="boolean" name="enable_click_to_maximize_view"/>
+    <attr format="boolean" name="enable_click_to_minimize_view"/>
+    <attr format="boolean" name="top_view_resize"/>
+  </declare-styleable></file><file path="D:\VTVPLAY_2_1\draggablepanel\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">DraggablePanel</string></file><file path="D:\VTVPLAY_2_1\draggablepanel\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style></file><file path="D:\VTVPLAY_2_1\draggablepanel\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="D:\VTVPLAY_2_1\draggablepanel\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file></source><source path="D:\VTVPLAY_2_1\draggablepanel\build\generated\res\rs\release"/><source path="D:\VTVPLAY_2_1\draggablepanel\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\VTVPLAY_2_1\draggablepanel\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="draggable_panel"><attr format="dimension" name="top_fragment_height"/><attr format="float" name="x_scale_factor"/><attr format="float" name="y_scale_factor"/><attr format="dimension" name="top_fragment_margin_right"/><attr format="dimension" name="top_fragment_margin_bottom"/><attr format="boolean" name="enable_horizontal_alpha_effect"/><attr format="boolean" name="enable_click_to_maximize_panel"/><attr format="boolean" name="enable_click_to_minimize_panel"/><attr format="boolean" name="enable_touch_listener_panel"/></declare-styleable><declare-styleable name="draggable_view"><attr format="reference" name="top_view_id"/><attr format="reference" name="bottom_view_id"/><attr format="dimension" name="top_view_height"/><attr format="float" name="top_view_x_scale_factor"/><attr format="float" name="top_view_y_scale_factor"/><attr format="dimension" name="top_view_margin_right"/><attr format="dimension" name="top_view_margin_bottom"/><attr format="boolean" name="enable_minimized_horizontal_alpha_effect"/><attr format="boolean" name="enable_click_to_maximize_view"/><attr format="boolean" name="enable_click_to_minimize_view"/><attr format="boolean" name="top_view_resize"/></declare-styleable></configuration></mergedItems></merger>

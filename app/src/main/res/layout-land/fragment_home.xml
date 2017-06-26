@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background_signon"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            custom:auto_cycle="true"
+            custom:indicator_visibility="invisible"
+            custom:pager_animation="Accordion"
+            custom:pager_animation_span="1100">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"/>
+        </com.daimajia.slider.library.SliderLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewHome"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/slider"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="@dimen/padding5"
+            android:paddingRight="@dimen/padding5"/>
+
+        <include
+            android:id="@+id/marker_progress"
+            layout="@layout/progressbar"/>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

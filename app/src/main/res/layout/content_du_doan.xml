@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="vn.lequan.vivovideo.activity.DuDoanActivity"
+    tools:showIn="@layout/activity_du_doan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/background_item_game"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:padding="@dimen/padding4"
+            android:singleLine="true"
+            android:text="Bồ Đào Nha - Đức 21:00, ngày 16/06/2016"
+            android:textColor="@color/color_title_game" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/padding10"
+        android:layout_marginTop="@dimen/padding10"
+        android:background="@color/white"
+        android:scrollbars="none" />
+
+</LinearLayout>

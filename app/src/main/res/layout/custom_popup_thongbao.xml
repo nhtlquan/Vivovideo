@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:minWidth="300dp"
+    android:paddingTop="@dimen/padding20"
+    android:paddingBottom="@dimen/padding20"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="@string/popup_update"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/padding10"
+        android:layout_marginRight="@dimen/padding10"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_message" />
+
+    <TextView
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="@dimen/padding10"
+        android:background="@drawable/boder_singin"
+        android:gravity="center"
+        android:padding="@dimen/padding10"
+        android:text="@string/dongy"
+        android:textSize="13sp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textColorLink="@color/white"
+        android:textStyle="bold" />
+</LinearLayout>

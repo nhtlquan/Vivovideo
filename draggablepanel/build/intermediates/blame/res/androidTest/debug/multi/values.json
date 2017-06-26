@@ -1,0 +1,68 @@
+[
+    {
+        "outputFile": "D:\\VTVPLAY_2_1\\draggablepanel\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 1293,
+                    "endColumn": 51,
+                    "endOffset": 1340
+                },
+                "from": {
+                    "file": "D:\\VTVPLAY_2_1\\draggablepanel\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 1293,
+                        "endColumn": 51,
+                        "endOffset": 1340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 1345,
+                    "endLine": 11,
+                    "endColumn": 12,
+                    "endOffset": 1631
+                },
+                "from": {
+                    "file": "D:\\VTVPLAY_2_1\\draggablepanel\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 1345,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 1631
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1636,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 1791
+                },
+                "from": {
+                    "file": "D:\\VTVPLAY_2_1\\draggablepanel\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1636,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 1791
+                    }
+                }
+            }
+        ]
+    }
+]

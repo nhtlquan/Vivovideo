@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imageView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_blur"
+    android:orientation="vertical">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/rltSignOn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logo_vtvplay"
+            app:layout_constraintBottom_toTopOf="@+id/edtUserName"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <EditText
+            android:id="@+id/edtUserName"
+            style="@style/input_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="Số điện thoại hoặc Email"
+            android:inputType="text"
+            app:layout_constraintBottom_toTopOf="@+id/edtPassword"
+            app:layout_constraintLeft_toLeftOf="@+id/edtPassword"
+            app:layout_constraintRight_toRightOf="@+id/edtPassword"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            style="@style/input_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toTopOf="@+id/btnSignIn"
+            app:layout_constraintLeft_toLeftOf="@+id/btnSignIn"
+            app:layout_constraintRight_toRightOf="@+id/btnSignIn"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <RelativeLayout
+            android:id="@+id/rltForgotPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="parent"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_editor_absoluteY="187dp">
+
+            <TextView
+                android:id="@+id/tvForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="5.0dip"
+                android:paddingTop="5.0dip"
+                android:text="@string/forgot_password"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tvRegister_fontSize"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btnSignIn"
+            style="@style/button_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/signin"
+            app:layout_constraintBottom_toTopOf="@+id/llHoac"
+            app:layout_constraintLeft_toLeftOf="@+id/llHoac"
+            app:layout_constraintRight_toRightOf="@+id/llHoac"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <LinearLayout
+            android:id="@+id/llHoac"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="9dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/btnFacebook"
+            app:layout_constraintLeft_toLeftOf="@+id/btnFacebook"
+            app:layout_constraintRight_toRightOf="@+id/btnFacebook"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1">
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="1.0dip"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:padding="5.0dip"
+                android:text="Hoặc"
+                android:textColor="@color/white" />
+
+            <View
+                android:layout_width="0.0dip"
+                android:layout_height="1.0dip"
+                android:layout_gravity="center"
+                android:layout_weight="0.4"
+                android:background="@color/white" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnFacebook"
+            style="@style/button_facebook_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/signin_facebook"
+            app:layout_constraintBottom_toTopOf="@+id/btnGoogle"
+            app:layout_constraintLeft_toLeftOf="@+id/btnGoogle"
+            app:layout_constraintRight_toRightOf="@+id/btnGoogle"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <Button
+            android:id="@+id/btnGoogle"
+            style="@style/button_google_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/signin_google"
+            app:layout_constraintBottom_toTopOf="@+id/btnVTVCab"
+            app:layout_constraintLeft_toLeftOf="@+id/btnVTVCab"
+            app:layout_constraintRight_toRightOf="@+id/btnVTVCab"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <Button
+            android:id="@+id/btnVTVCab"
+            style="@style/button_vtvcab_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/signin_vtvcab"
+            app:layout_constraintBottom_toTopOf="@+id/rltRegister"
+            app:layout_constraintLeft_toLeftOf="@+id/rltRegister"
+            app:layout_constraintRight_toRightOf="@+id/rltRegister"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1" />
+
+        <RelativeLayout
+            android:id="@+id/rltRegister"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:paddingTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp">
+
+            <TextView
+                android:id="@+id/tvRegisterAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="30.0dip"
+                android:paddingTop="30.0dip"
+                android:text="@string/register"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tvRegister_fontSize" />
+
+            <TextView
+                android:id="@+id/btn_recovery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="30.0dip"
+                android:paddingTop="30.0dip"
+                android:text="@string/recovery"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tvRegister_fontSize"
+                tools:ignore="RtlHardcoded" />
+        </RelativeLayout>
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

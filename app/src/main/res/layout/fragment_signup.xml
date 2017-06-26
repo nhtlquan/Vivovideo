@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background_blur"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rltRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:paddingLeft="@dimen/rltSignOn_padding"
+            android:paddingRight="@dimen/rltSignOn_padding">
+
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="@dimen/ivLogo_width"
+                android:layout_height="@dimen/ivLogo_height"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo_vtvplay" />
+
+            <EditText
+                android:id="@+id/edtHoVaTen"
+                style="@style/input_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ivLogo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/edtUserName_padding_margin"
+                android:layout_marginRight="@dimen/edtUserName_padding_margin"
+                android:ems="10"
+                android:hint="Họ và tên"
+                android:inputType="text"
+                android:maxLength="20"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                style="@style/input_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtHoVaTen"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="@dimen/edtUserName_padding_margin"
+                android:layout_marginRight="@dimen/edtUserName_padding_margin"
+                android:layout_marginTop="@dimen/edtUserName_padding_margin"
+                android:ems="10"
+                android:hint="Số điện thoại*"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/edtName"
+                style="@style/input_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtEmail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="@dimen/edtUserName_padding_margin"
+                android:layout_marginRight="@dimen/edtUserName_padding_margin"
+                android:layout_marginTop="@dimen/edtUserName_padding_margin"
+                android:ems="10"
+                android:hint="Họ Tên*"
+                android:inputType="text" />
+
+
+            <EditText
+                android:id="@+id/edtPassword"
+                style="@style/input_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="@dimen/edtUserName_padding_margin"
+                android:layout_marginRight="@dimen/edtUserName_padding_margin"
+                android:layout_marginTop="10.0dip"
+                android:ems="10"
+                android:hint="Mật khẩu *"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/edtPasswordReType"
+                style="@style/input_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtPassword"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/edtUserName_padding_margin"
+                android:layout_marginLeft="@dimen/edtUserName_padding_margin"
+                android:layout_marginRight="@dimen/edtUserName_padding_margin"
+                android:layout_marginTop="10.0dip"
+                android:ems="10"
+                android:hint="Nhập lại mật khẩu *"
+                android:inputType="textPassword" />
+
+
+            <LinearLayout
+                android:id="@+id/llDieuKhoanSuDung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/edtPassword"
+                android:layout_alignRight="@id/edtPassword"
+                android:layout_below="@id/edtPasswordReType"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvDieuKhoanDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:padding="@dimen/edtUserName_padding_margin"
+                    android:text="@string/dieukhoansudung"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tvDescForgotPassword_fontSize" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/edtPassword"
+                android:layout_alignRight="@id/edtPassword"
+                android:layout_below="@id/llDieuKhoanSuDung"
+                android:layout_marginTop="20.0dip"
+                android:background="@drawable/border_button_login"
+                android:padding="@dimen/edtUserName_padding_margin"
+                android:text="@string/register"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

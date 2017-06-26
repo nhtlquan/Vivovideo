@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">network</string>
+    <string name="authorization">"Basic %1$s "</string>
+</resources>

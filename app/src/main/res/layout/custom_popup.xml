@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boder_background_popup"
+    android:gravity="center"
+    android:minWidth="300dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_xemsau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding24"
+        android:drawableLeft="@drawable/ic_xemsau"
+        android:drawablePadding="@dimen/padding24"
+        android:gravity="center_vertical"
+        android:text="@string/addlastview"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding1"
+        android:background="@color/line_popup" />
+
+    <TextView
+        android:id="@+id/txt_yeuthich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding24"
+        android:drawableLeft="@drawable/ic_yeuthich_popup"
+        android:drawablePadding="@dimen/padding24"
+        android:gravity="center_vertical"
+        android:text="@string/addfavorite"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding1"
+        android:background="@color/line_popup" />
+
+
+    <TextView
+        android:id="@+id/txt_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding24"
+        android:drawableLeft="@drawable/ic_chiase"
+        android:drawablePadding="@dimen/padding24"
+        android:gravity="center_vertical"
+        android:text="@string/sharepopup"
+        android:textAllCaps="true"
+        android:textColor="@color/white" />
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:scrollbars="">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black_account"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rltAccountCover"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/rltAccountCover_height">
+
+            <ImageView
+                android:id="@+id/iv_account_cover"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/avatar_bg" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rltAccountInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rltAccountCover"
+            android:paddingBottom="@dimen/rltAccountInfo_padding"
+            android:paddingLeft="@dimen/rltAccountInfo_padding"
+            android:paddingRight="@dimen/rltAccountInfo_padding"
+            android:paddingTop="@dimen/rltAccountInfo_paddingTop">
+
+            <EditText
+                android:id="@+id/edtLastName"
+                style="@style/input_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0.0dip"
+                android:layout_marginLeft="@dimen/edtUserName_padding_margin"
+                android:layout_marginRight="@dimen/edtUserName_padding_margin"
+                android:layout_marginTop="@dimen/edtUserName_padding_margin"
+                android:ems="10"
+                android:gravity="left"
+                android:hint="Mã xác thực"
+                android:inputType="number"
+                android:maxLength="4" />
+
+            <TextView
+                android:id="@+id/txt_maxacthuc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edtLastName"
+                android:layout_alignStart="@+id/edtLastName"
+                android:layout_below="@+id/edtLastName"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Mã xác thực đã được gửi tới "
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btnUpdate"
+                style="@style/button_style"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:text="Xác nhận" />
+
+            <Button
+                android:id="@+id/btn_resend"
+                style="@style/button_style"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btnUpdate"
+                android:layout_alignStart="@+id/btnUpdate"
+                android:layout_below="@+id/btnUpdate"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Không nhận được mã? Gửi lại" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

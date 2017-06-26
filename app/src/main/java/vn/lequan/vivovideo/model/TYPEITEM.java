@@ -1,0 +1,1 @@
+package vn.lequan.vivovideo.model;/** * Created by NhtlQuan on 3/30/2017. */public enum TYPEITEM {    VIDEO("videos"), CHANEL("live_channels"), MOVIE("movies"), SERIES("series"), EPISODE("episodes");    String value;    TYPEITEM(String value) {        this.value = value;    }    public String getValue() {        return value;    }}

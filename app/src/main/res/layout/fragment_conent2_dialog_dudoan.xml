@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/conent_dudoan2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e3e3e3"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/padding10"
+        android:paddingLeft="@dimen/padding35"
+        android:paddingRight="@dimen/padding35">
+
+        <TextView
+            android:id="@+id/tv_question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding5"
+            android:ellipsize="marquee"
+            android:maxLines="2"
+            android:text="Ronando là người cuối cùng ghi bàn"
+            android:textColor="#A4A4A4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding5"
+            android:text="Dự đoán của bạn"
+            android:textColor="@color/color_title_game" />
+
+        <TextView
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding5"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_dudoan_white"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:text="Đúng"
+            android:textAllCaps="true"
+            android:textColor="@color/yellow"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding5"
+            android:layout_weight="1"
+            android:background="@drawable/background_button_dudoan_white"
+            android:gravity="center"
+            android:padding="@dimen/padding5"
+            android:textAllCaps="true"
+            android:textColor="@color/yellow" />
+    </LinearLayout>
+
+</LinearLayout>

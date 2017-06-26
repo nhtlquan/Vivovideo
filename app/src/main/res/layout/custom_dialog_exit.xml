@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/boder_background_popup"
+    android:gravity="center"
+    android:minWidth="@dimen/minWidth"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="Thoát ứng dụng"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:paddingTop="20dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21" />
+
+    <TextView
+        android:text="@string/stringexit"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/txt_xemsau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/playstore"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="ĐÁNH GIÁ NGAY"
+        android:textAllCaps="true"
+        android:textColor="@color/green_1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding1"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/txt_yeuthich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="NHẮC TÔI SAU"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding1"
+        android:background="@color/white" />
+
+
+    <TextView
+        android:id="@+id/txt_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="BỎ QUA"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</LinearLayout>

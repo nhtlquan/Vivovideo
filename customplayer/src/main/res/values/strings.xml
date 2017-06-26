@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string name="live_label">Live</string>
+    <string name="ad_learn_more">Visit advertiser</string>
+
+    <string name="accessibility_hide_player_controls">Hide controls</string>
+    <string name="accessibility_enter_fullscreen">Enter fullscreen</string>
+    <string name="accessibility_overflow">More options</string>
+    <string name="accessibility_share">Share</string>
+    <string name="accessibility_addto">Add to</string>
+    <string name="accessibility_play">Play video</string>
+    <string name="accessibility_previous">Previous video</string>
+    <string name="accessibility_next">Next video</string>
+    <string name="accessibility_collapse">Minimize</string>
+    <string name="text_timer">%1$s/%2$s</string>
+</resources>

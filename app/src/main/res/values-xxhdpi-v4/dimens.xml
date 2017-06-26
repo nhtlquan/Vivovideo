@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edtUserName_padding_margin">5.0dip</dimen>
+    <dimen name="ivEditUserName_padding">10.0dip</dimen>
+    <dimen name="ivEditUserName_size">40.0dip</dimen>
+    <dimen name="ivLogo_height">100.0dip</dimen>
+    <dimen name="ivLogo_marginBottom">30.0dip</dimen>
+    <dimen name="ivLogo_padding">20.0dip</dimen>
+    <dimen name="ivLogo_width">200.0dip</dimen>
+    <dimen name="ivPlay_size">60.0dip</dimen>
+    <dimen name="ivPromo_height">250.0dip</dimen>
+    <dimen name="iv_logo_live_width">80.0dip</dimen>
+    <dimen name="llHoac_marginTop">30.0dip</dimen>
+    <dimen name="rltSignOn_padding">30.0dip</dimen>
+    <dimen name="tvRegister_fontSize">15.0sp</dimen>
+</resources>

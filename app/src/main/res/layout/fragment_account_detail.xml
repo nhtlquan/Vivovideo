@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:scrollbars="">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/black_account"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rltAccountCover"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/rltAccountCover_height">
+
+            <ImageView
+                android:id="@+id/iv_account_cover"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/avatar_bg"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="@dimen/ivAvatar_size"
+            android:layout_height="@dimen/ivAvatar_size"
+            android:layout_below="@+id/rltAccountCover"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ivAvatar_marginTop"
+            android:scaleType="centerCrop"
+            android:src="@drawable/com_facebook_profile_picture_blank_square"
+            android:visibility="visible"/>
+
+        <RelativeLayout
+            android:id="@+id/rltAccountInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rltAccountCover"
+            android:paddingBottom="@dimen/rltAccountInfo_padding"
+            android:paddingLeft="@dimen/rltAccountInfo_padding"
+            android:paddingRight="@dimen/rltAccountInfo_padding"
+            android:paddingTop="@dimen/rltAccountInfo_paddingTop">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:padding="10.0dip"
+                android:text=""
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/ic_edit"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tvProductList_fontSize"/>
+
+            <LinearLayout
+                android:id="@+id/llAccountInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvUserName"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/llAccountInfo_marginTop"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/tvEmail"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/ic_email"/>
+
+                    <EditText
+                        android:id="@+id/edtEmail"
+                        style="@style/input_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/llAccountInfo_edittext_marginLeft"
+                        android:ems="10"
+                        android:focusable="false"
+                        android:gravity="left"
+                        android:hint="@string/account_detail_email"
+                        android:inputType="text"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/tvSoDienThoai"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/ic_phone"/>
+
+                    <EditText
+                        android:id="@+id/edtSoDienThoai"
+                        style="@style/input_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/llAccountInfo_edittext_marginLeft"
+                        android:focusable="false"
+                        android:ems="10"
+                        android:gravity="left"
+                        android:hint="@string/account_detail_phone"
+                        android:inputType="phone"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/tvSoThe"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/ic_password"/>
+
+                    <EditText
+                        android:id="@+id/edtMatKhau"
+                        style="@style/input_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/llAccountInfo_edittext_marginLeft"
+                        android:ems="10"
+                        android:gravity="left"
+                        android:focusable="false"
+                        android:hint="@string/account_detail_sothe"
+                        android:inputType="textPassword"
+                        android:text="123456789"/>
+
+                    <ImageView
+                        android:id="@+id/updatePass"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/ic_edit"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rltProducts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llAccountInfo"
+                android:layout_marginTop="@dimen/rltProducts_marginTop">
+
+                <TextView
+                    android:id="@+id/tvProductList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginBottom="@dimen/llAccountInfo_icon_padding"
+                    android:text="Gói dịch vụ"
+                    android:textColor="@color/title_color"
+                    android:textSize="@dimen/tvProductList_fontSize"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerViewProductList"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/tvProductList"
+                    android:scrollbars="vertical"/>
+
+                <TextView
+                    android:id="@+id/tvProductError"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/recyclerViewProductList"
+                    android:layout_centerHorizontal="true"
+                    android:padding="@dimen/llAccountInfo_icon_padding"
+                    android:text="Bạn chưa đăng ký gói dịch vụ"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/tvTitle_AccountDetail_fontSize"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:id="@+id/llAddProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvProductError"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/tvPlus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_add"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/llAccountInfo_icon_padding"
+                        android:text="Thêm gói dịch vụ"
+                        android:textColor="#ff585858"
+                        android:textSize="@dimen/tvTitle_AccountDetail_fontSize"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/llTransaction"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:orientation="vertical"
+                android:layout_below="@+id/rltProducts"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/tvTransaction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/llAccountInfo_icon_padding"
+                    android:text="Giao dịch"
+                    android:textColor="@color/title_color"
+                    android:textSize="@dimen/tvProductList_fontSize"/>
+
+                <LinearLayout
+                    android:id="@+id/llNapTien"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/llAccountInfo_icon_padding">
+
+                    <ImageView
+                        android:id="@+id/tvNapTienIcon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/ic_payment"/>
+
+                    <TextView
+                        android:id="@+id/tvNapTien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/llAccountInfo_edittext_marginLeft"
+                        android:text="Nạp tiền"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tvTitle_AccountDetail_fontSize"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llLichSuGiaoDich"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/llAccountInfo_icon_padding">
+
+                    <ImageView
+                        android:id="@+id/tvLichSuGiaoDichIcon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/ic_history"/>
+
+                    <TextView
+                        android:id="@+id/tvLichSuGiaoDich"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/llAccountInfo_edittext_marginLeft"
+                        android:text="Lịch sử giao dịch"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tvTitle_AccountDetail_fontSize"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/llAccountInfo_icon_padding">
+
+                    <TextView
+                        android:id="@+id/tvSoDuIcon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="@drawable/ic_savemoney"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="2.0">
+
+                        <TextView
+                            android:id="@+id/tvSoDu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0.0dip"
+                            android:layout_marginBottom="@dimen/llAccountInfo_icon_padding"
+                            android:layout_marginLeft="@dimen/llAccountInfo_edittext_marginLeft"
+                            android:layout_weight="1.0"
+                            android:text="Số dư tài khoản"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/tvTitle_AccountDetail_fontSize"/>
+
+                        <TextView
+                            android:id="@+id/tvSoDuChiTiet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0.0dip"
+                            android:layout_marginLeft="@dimen/llAccountInfo_edittext_marginLeft"
+                            android:layout_weight="1.0"
+                            android:text="Lỗi lấy số dư tài khoản"
+                            android:textColor="@color/icon_color"
+                            android:textSize="@dimen/tvTitle_AccountDetail_fontSize_small"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:id="@+id/dangxuat"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/llTransaction"
+                android:layout_marginTop="@dimen/rltProducts_marginBottom"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/llLogOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="@dimen/llAccountInfo_icon_padding">
+
+                    <ImageView
+                        android:id="@+id/tvLogOutIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/ic_signout"/>
+
+                    <TextView
+                        android:id="@+id/tvLogOut"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/llAccountInfo_edittext_marginLeft"
+                        android:text="Đăng xuất"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/tvTitle_AccountDetail_fontSize"/>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

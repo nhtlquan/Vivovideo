@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">VIVO - Music Funny</string>
+    <string name="facebook_app_id">9887180682</string>
+    <string name="client_token">26a4acec41385636bcebd0d3603a732f</string>
+    <string name="ak_login_protocol_scheme">ak9887482682</string>
+    <string name="coin">%1$s VXu</string>
+    <string name="coin_">VXu</string>
+    <string name="vcoin">%1$s VCoin</string>
+    <string name="message_not_find">Không tìm thấy dữ liệu</string>
+    <string name="description">Ứng dụng xem truyền hình miễn phí, phim HD tốc độ cao, clip bóng đá, chiến thuật game, phim hoạt hình cực đỉnh.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="double_back">Nhấn BACK 2 lần để thoát ứng dụng</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="message_exit">Bạn muốn thoát tài khoản?</string>
+    <string name="exit_account_yes">Có</string>
+    <string name="exit_account_no">Không</string>
+
+    <string name="drawer_close">drawer_close</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="movie_signle">Phim lẻ</string>
+    <string name="movie_multi">Phim bộ</string>
+    <string name="trailer">Trailer đặc sắc</string>
+
+    <string name="music">Âm nhạc</string>
+    <string name="makeup">Làm đẹp</string>
+    <string name="channel_rating_description_1">Dở tệ!</string>
+    <string name="channel_rating_description_2">Không hay lắm!</string>
+    <string name="channel_rating_description_3">Bình thường!</string>
+    <string name="channel_rating_description_4">Hay quá!</string>
+    <string name="channel_rating_description_5">Tuyệt vời!</string>
+    <string name="vpfmedia">VPF Media</string>
+    <string name="bantinthethao247">Bản tin thể thao 24/7</string>
+    <string name="bongdachauau">Bóng đá châu âu</string>
+    <string name="bongdaanh">Bóng đá Anh</string>
+    <string name="bongdavietnam">Bóng đá Việt Nam</string>
+    <string name="bongday">Bóng đá Ý</string>
+    <string name="bongdataybannha">Bóng đá Tây Ban Nha</string>
+    <string name="bongdaduc">Bóng đá Đức</string>
+    <string name="bongdakhac">Giải khác</string>
+
+    <string name="highlight_tiso">Hightlight tỷ số</string>
+    <string name="bantinthethao">Bản tin thể thao</string>
+    <string name="lanquanhtraibong">Lăn quanh trái bóng</string>
+    <string name="benlesanco">Bên lề sân cỏ</string>
+    <string name="nhungkhoangkhacantuong">Những khoảnh khắc ấn tượng</string>
+
+    <string name="home">Trang chủ</string>
+    <string name="game">Game dự doán</string>
+    <string name="channel">Kênh truyền hình</string>
+    <string name="theloai">Thể loại</string>
+    <string name="videodacsac">Video đặc sắc</string>
+    <string name="life">Life+</string>
+    <string name="videohot">Video đặc sắc</string>
+    <string name="sport">Thể thao</string>
+    <string name="laught">Hài hước</string>
+    <string name="tvshows">TVShows</string>
+    <string name="gameshow">GameShow</string>
+    <string name="movie">Phim truyện</string>
+    <string name="timeshift">Lịch</string>
+    <string name="about">Giới thiệu về sản phẩm</string>
+    <string name="rate">Đánh giá trên app store</string>
+    <string name="thongtin">Thông tin</string>
+    <string name="invifriends">Mời bạn bè</string>
+    <string name="share">Chia sẻ với bạn bè</string>
+    <string name="feedback">Góp ý với chúng tôi</string>
+    <string name="exit">Thoát</string>
+    <string name="signin">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="search">Tìm kiếm&#8230;</string>
+    <string name="more">Xem thêm</string>
+    <string name="nhapemail">Nhập số điện thoại hoặc email</string>
+    <string name="nhappass">Nhập mật khẩu</string>
+    <string name="or">Hoặc</string>
+    <string name="addfavorite">Thêm Vào Yêu Thích</string>
+    <string name="addlastview">Thêm Vào Xem Sau</string>
+    <string name="sharepopup">Chia Sẻ</string>
+    <string name="muadichvu">Mua dịch vụ</string>
+    <string name="yeuthich">Yêu thích</string>
+    <string name="dongy">đồng ý</string>
+    <string name="muagoi">Mua gói</string>
+    <string name="naptien">Nạp tiền</string>
+    <string name="vicuaban">Ví của bạn</string>
+    <string name="khuyenmai">Khuyến mại</string>
+    <!--Intro Slider-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">TIẾP TỤC</string>
+    <string name="skip">BỎ QUA</string>
+    <string name="start">BẮT ĐẦU</string>
+    <string name="message_timeshift_update">Lịch phát sóng đang cập nhật</string>
+    <string name="popup_update">Xin lỗi bạn! Chúng tôi không hỗ trợ cài đặt ứng dụng trên phiên bản BOX!</string>
+
+    <string name="title_game">Dự đoán</string>
+    <string name="about_game">Thể lệ dự đoán</string>
+    <string name="history_game">Lịch sử dự đoán</string>
+    <string name="top_game">Top cao thủ</string>
+    <string name="video_game">Video</string>
+    <string name="point_menu">%1$s Vxu</string>
+    <string name="match_title">Lượt trận ngày %1$s</string>
+    <string name="slogan">Thế giới thể thao</string>
+
+    <string name="livechat">Live chat</string>
+    <string name="info">Thông tin</string>
+    <string name="nhanxet">Nhận xét</string>
+    <string name="list_chaps">Danh sách</string>
+    <string name="relation">Liên quan</string>
+    <string name="hint_name">Họ và tên</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_passwd">Mật khẩu</string>
+    <string name="signin_fb">Facebook</string>
+    <string name="signup"><u>Đăng ký</u></string>
+    <string name="recovery">Khôi phục mật khẩu</string>
+    <string name="dangnhapfb">ĐĂNG NHẬP <b>BẰNG FACEBOOK</b></string>
+    <string name="back"><u>Quay lại trang chủ</u></string>
+
+    <string name="dieukhoansudung">Bằng cách ấn vào nút đăng ký, bạn đồng ý với  <b><u>Điều khoản sử dụng</u></b> của dịch vụ</string>
+    <string name="message_register_sussesfull">Đăng ký tài khoản thành công</string>
+    <string name="message_error_input_signup_name">Hãy nhập họ tên</string>
+    <string name="message_error_input_signup_email">Hãy nhập số điện thoại</string>
+    <string name="message_error_input_signup_phone">Hãy nhập sốênthoai</string>
+    <string name="message_error_input_signup_passwd">Nhập mật khẩu</string>
+    <string name="message_error_input_signup_repasswd">Mật khẩu xác nhận không khớp</string>
+    <string name="hint_phone">Số điện thoại</string>
+    <string name="hint_password_vtvcab">Nhập mật khẩu của bạn</string>
+    <string name="hint_re_password_vtvcab">Xác nhận mật khẩu</string>
+    <string name="cancel">Hủy</string>
+
+    <string name="title_dialog_dudoan">Hãy trổ tài dự đoán</string>
+    <string name="message_betting">"Bạn cần \"Đăng nhập\" để được dự đoán"</string>
+    <string name="not_connect_internet">Lỗi kết nối internet, nhấn để thử lại</string>
+    <string name="version">Version %1$s</string>
+    <string name="message_continue_video">Bạn có muốn xem tiếp video</string>
+
+    <string name="slide_1_title">Gói kênh VTVCAB đặc sắc \nthể thao, phim truyện, giải trí</string>
+
+    <string name="slide_2_title">Kho phim truyện, VOD đặc sắc có bản quyền</string>
+
+    <string name="slide_3_title">Bản quyền ngoại hạng anh 2016/2017</string>
+
+    <string name="slide_4_title">Cùng hàng chục sự kiện thể thao đặc sắc khác</string>
+    <!--LiveChat-->
+
+    <!--VTVCAB-->
+    <string name="forgot_password">Quên mật khẩu ?</string>
+    <string name="signin_facebook">Đăng nhập qua Facebook</string>
+    <string name="signin_google">Đăng nhập qua Google</string>
+    <string name="signin_vtvcab">Đăng nhập qua VTVCab</string>
+    <string name="register_question">Chưa có tài khoản?</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="account_detail_email">Email</string>
+    <string name="account_detail_phone">Số điện thoại</string>
+    <string name="account_detail_sothe">Mật khẩu</string>
+    <string name="asset_statements" translatable="false">[{\n  \"relation\": [\"delegate_permission/common.handle_all_urls\"],\n  \"target\": {\n    \"namespace\": \"web\",\n    \"site\": \"http://vtvplay.vn\",\n  }\n}]</string>
+
+    <string name="type_home">home</string>
+    <string name="type_schedule">schedule</string>
+    <string name="type_bet">bet</string>
+    <string name="type_series">series</string>
+    <string name="type_episodes">episodes</string>
+    <string name="type_movies">movies</string>
+    <string name="type_live_channels">live_channels</string>
+    <string name="type_videos">videos</string>
+    <string name="type_bookmark">bookmark</string>
+    <string name="btn_yes">Đồng ý</string>
+    <string name="btn_no">Không</string>
+    <string name="message_cancel_bet">Bạn đã dự đoán câu hỏi này\nBạn muốn hủy dự đoán của bạn?</string>
+    <string name="video">Video</string>
+    <string name="movies">Movie</string>
+    <string name="series">Series</string>
+    <string name="title_series">Series</string>
+    <string name="text_abount">1. Giới thiệu dịch vụ\r\n
+\r\n
+VTV Play- là ứng dụng xem truyền hình hiện đại, tiện lợi, kho giải trí khổng lồ mang đến cho bạn trải nghiệm mới mẻ mọi lúc mọi nơi trên mọi thiết bị kết nối internet.\r\n
+\r\n
+Đa dạng về thể loại, phong phú về nội dung và được cập nhật liên tục, kho VOD (Video theo yêu cầu) của VTV Play sẽ cung cấp cho khán giả hàng ngàn chương trình giải trí hấp dẫn, từ tin tức, phim truyện, hài kịch đến các giải đấu thể thao đỉnh cao…\r\n
+\r\n
+Khách hàng có thể sử dụng dịch vụ bằng hai cách: truy cập website http://vtvplay.vn/ hoặc qua ứng dụng của dịch vụ được cài đặt trực tiếp trên điện thoại.\r\n\r\n
+\r\n
+
+
+2. Tính năng, lợi ích dịch vụ\r\n
+\r\n
+- Xem các kênh truyền hình đặc sắc.\r\n
+\r\n
+- Xem các chương trình truyền hinh thực tế đặc sắc, chất lượng cao, có bản quyền và liên tục được cập nhật.\r\n
+\r\n
+- Xem và tải về máy điện thoại video theo yêu cầu với nội dung phong phú thuộc các lĩnh vực khác nhau như ca nhạc, thời sự, hài hước, phim…\r\n
+\r\n
+- Xem lịch phát sóng của các kênh trong hệ thống.\r\n
+\r\n
+- Tốc độ truyền tải nhanh,mượt chỉ cần truy cập website http://www.vtvplay.vn   hoặc tải ứng dụng App VTV Play trên các loại thiết bị điện thoại di động, máy tính bảng IOS hoặc Android.\r\n
+\r\n
+- Đặc biệt, với VTV Play bạn có thể xem lại các chương trình mình yêu thích với tính năng xem lại.\r\n
+</string>
+    <string name="userAgent">VTVPlayer-Mobile/v0.1</string>
+    <string name="text_dialog">Vui Lòng Chờ Giây Lát....</string>
+    <string name="stringexit">Nếu bạn muốn theo dõi các giải đấu C1, C2 và Ngoại hạng anh, vui lòng bớt chút thời gian để góp ý - đánh giá sản phẩm của chúng tôi!</string>
+    <string name="permissions_read_phone_state_message">
+        Grant permission to read your phone number from your device to pre-fill.
+    </string>
+    <string name="permissions_read_phone_state_title">Read Phone Number</string>
+    <string name="permissions_receive_sms_message">
+        Grant permission to read your SMS code from your device to pre-fill.
+    </string>
+    <string name="permissions_receive_sms_title">Read SMS Code</string>
+</resources>

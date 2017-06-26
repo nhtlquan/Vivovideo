@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/rl_custom_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/boder_background_popup"
+              android:gravity="center"
+              android:minWidth="300dp"
+              android:orientation="vertical"
+              android:padding="20dp">
+
+    <TextView
+        android:id="@+id/edt_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Hay quá!"
+        android:textColor="@color/green"
+        android:textSize="20sp"/>
+
+    <me.zhanghai.android.materialratingbar.MaterialRatingBar
+        android:id="@+id/ratingbar"
+        style="@style/Widget.MaterialRatingBar.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginRight="-3dp"
+        android:rating="2.5"
+        app:mrb_progressTint="@color/colorAccent"
+        app:mrb_secondaryProgressTint="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/img_Huy"
+            style="@style/button_xacnhan"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/img_DanhGia"
+            style="@style/button_xacnhan"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="Đánh giá"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</LinearLayout>

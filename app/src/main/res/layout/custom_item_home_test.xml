@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="@dimen/padding10"
+        android:paddingRight="5dp"
+        android:paddingTop="@dimen/padding10">
+
+        <ImageView
+            android:id="@+id/icon_title"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:src="@drawable/ic_thethao" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/icon_title"
+            android:drawablePadding="@dimen/padding5"
+            android:maxLines="1"
+            android:text="Sự kiện"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/icon_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/title"
+            android:padding="@dimen/padding5"
+            android:src="@drawable/ic_gameshow"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_title"/>
+
+    <include
+        android:id="@+id/marker_progress"
+        layout="@layout/progressbar"
+        android:visibility="gone" />
+</RelativeLayout>

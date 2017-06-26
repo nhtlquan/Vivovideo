@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "455185558951",
+    "firebase_url": "https://vivo-music-cover.firebaseio.com",
+    "project_id": "vivo-music-cover",
+    "storage_bucket": "vivo-music-cover.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455185558951:android:b03cf045d5a21f5b",
+        "android_client_info": {
+          "package_name": "vn.lequan.vivovideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455185558951-alvsqpb3j41eqduaqm55iv09kd0k6c99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiDTaV7RWVNDjGu9alS4j9FQcjzQQ627Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

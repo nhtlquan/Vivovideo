@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                                        xmlns:draggable_panel="http://schemas.android.com/apk/res-auto"
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:id="@+id/drawer_layout"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:fitsSystemWindows="true"
+                                        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                                        tools:openDrawer="start">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include
+            layout="@layout/content_main"/>
+
+        <com.github.pedrovgs.DraggablePanel
+            android:id="@+id/draggablePanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            draggable_panel:enable_horizontal_alpha_effect="false"
+            draggable_panel:paddingEnd="@dimen/padding4"
+            draggable_panel:paddingStart="@dimen/padding4"
+            draggable_panel:top_fragment_height="200dip"
+            draggable_panel:top_fragment_margin_bottom="@dimen/padding8"
+            draggable_panel:top_fragment_margin_right="@dimen/padding8"
+            draggable_panel:x_scale_factor="3.2"
+            draggable_panel:y_scale_factor="3.2">
+
+        </com.github.pedrovgs.DraggablePanel>
+
+    </FrameLayout>
+
+    <fragment
+        android:id="@+id/fragment_navigation_drawer"
+        android:name="vn.lequan.vivovideo.menu.FragmentDrawer"
+        android:layout_width="280dip"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:layout="@layout/fragment_navigation_drawer"
+        tools:layout="@layout/fragment_navigation_drawer"/>
+</android.support.v4.widget.DrawerLayout>
